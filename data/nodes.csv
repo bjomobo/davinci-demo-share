@@ -1,0 +1,6 @@
+node,name,region,city,state,zip3,lat,lon
+NODE_NJ,Davinci NJ Hub,Northeast,Edison,NJ,088,40.5187,-74.4121
+NODE_GA,Davinci GA Hub,Southeast,Atlanta,GA,303,33.749,-84.388
+NODE_TX,Davinci TX Hub,South Central,Dallas,TX,750,32.7767,-96.797
+NODE_IL,Davinci IL Hub,Midwest,Chicago,IL,606,41.8781,-87.6298
+NODE_NV,Davinci NV Hub,West,Las Vegas,NV,891,36.1699,-115.1398

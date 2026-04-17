@@ -1,0 +1,73 @@
+origin_node,destination_region,service_level,cost,days
+NODE_NJ,Northeast,Standard,3.92,3
+NODE_NJ,Northeast,Expedited,7.56,2
+NODE_NJ,Northeast,Next-Day,13.38,1
+NODE_NJ,Southeast,Standard,6.25,4
+NODE_NJ,Southeast,Expedited,10.28,2
+NODE_NJ,Southeast,Next-Day,16.72,1
+NODE_NJ,South Central,Standard,7.86,5
+NODE_NJ,South Central,Expedited,12.01,3
+NODE_NJ,South Central,Next-Day,19.22,1
+NODE_NJ,Midwest,Standard,5.93,4
+NODE_NJ,Midwest,Expedited,10.29,2
+NODE_NJ,Midwest,Next-Day,16.02,1
+NODE_NJ,West,Standard,9.39,6
+NODE_NJ,West,Expedited,14.36,3
+NODE_GA,Northeast,Standard,5.7,4
+NODE_GA,Northeast,Expedited,10.7,2
+NODE_GA,Northeast,Next-Day,16.63,1
+NODE_GA,Southeast,Standard,3.76,3
+NODE_GA,Southeast,Expedited,8.0,2
+NODE_GA,Southeast,Next-Day,13.18,1
+NODE_GA,South Central,Standard,6.16,4
+NODE_GA,South Central,Expedited,10.62,2
+NODE_GA,South Central,Next-Day,16.05,1
+NODE_GA,Midwest,Standard,5.89,4
+NODE_GA,Midwest,Expedited,10.36,2
+NODE_GA,Midwest,Next-Day,15.9,1
+NODE_GA,West,Standard,7.76,5
+NODE_GA,West,Expedited,12.54,3
+NODE_TX,Northeast,Standard,7.53,5
+NODE_TX,Northeast,Expedited,12.0,3
+NODE_TX,Northeast,Next-Day,18.82,1
+NODE_TX,Southeast,Standard,5.27,4
+NODE_TX,Southeast,Expedited,10.68,2
+NODE_TX,Southeast,Next-Day,16.63,1
+NODE_TX,South Central,Standard,4.33,3
+NODE_TX,South Central,Expedited,7.81,2
+NODE_TX,South Central,Next-Day,13.06,1
+NODE_TX,Midwest,Standard,6.13,4
+NODE_TX,Midwest,Expedited,10.7,2
+NODE_TX,Midwest,Next-Day,15.84,1
+NODE_TX,West,Standard,5.74,4
+NODE_TX,West,Expedited,9.82,2
+NODE_TX,West,Next-Day,16.51,1
+NODE_IL,Northeast,Standard,6.02,4
+NODE_IL,Northeast,Expedited,9.88,2
+NODE_IL,Northeast,Next-Day,16.23,1
+NODE_IL,Southeast,Standard,5.8,4
+NODE_IL,Southeast,Expedited,10.02,2
+NODE_IL,Southeast,Next-Day,16.62,1
+NODE_IL,South Central,Standard,5.67,4
+NODE_IL,South Central,Expedited,9.96,2
+NODE_IL,South Central,Next-Day,16.29,1
+NODE_IL,Midwest,Standard,4.23,3
+NODE_IL,Midwest,Expedited,7.7,2
+NODE_IL,Midwest,Next-Day,13.31,1
+NODE_IL,West,Standard,8.0,5
+NODE_IL,West,Expedited,12.65,3
+NODE_IL,West,Next-Day,18.94,1
+NODE_NV,Northeast,Standard,9.27,6
+NODE_NV,Northeast,Expedited,14.37,3
+NODE_NV,Southeast,Standard,7.34,5
+NODE_NV,Southeast,Expedited,12.59,3
+NODE_NV,Southeast,Next-Day,18.73,1
+NODE_NV,South Central,Standard,5.47,4
+NODE_NV,South Central,Expedited,9.82,2
+NODE_NV,South Central,Next-Day,16.38,1
+NODE_NV,Midwest,Standard,7.23,5
+NODE_NV,Midwest,Expedited,12.91,3
+NODE_NV,Midwest,Next-Day,19.36,1
+NODE_NV,West,Standard,3.57,3
+NODE_NV,West,Expedited,7.74,2
+NODE_NV,West,Next-Day,13.67,1

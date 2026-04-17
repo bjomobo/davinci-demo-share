@@ -1,0 +1,26 @@
+sku,name,category,unit_cost,weight_lbs,is_active
+SKU-1001,Wireless Earbuds Pro,Electronics,18.5,0.3,true
+SKU-1002,Bluetooth Speaker Mini,Electronics,22.0,1.2,true
+SKU-1003,USB-C Charging Cable 6ft,Electronics,3.25,0.2,true
+SKU-1004,Phone Case Universal,Accessories,4.1,0.15,true
+SKU-1005,Screen Protector 2-Pack,Accessories,2.8,0.1,true
+SKU-1006,Laptop Stand Adjustable,Office,15.75,3.5,true
+SKU-1007,Wireless Mouse Ergonomic,Office,12.0,0.5,true
+SKU-1008,Mechanical Keyboard Compact,Office,28.0,2.1,true
+SKU-1009,Webcam HD 1080p,Electronics,16.5,0.6,true
+SKU-1010,LED Desk Lamp,Office,11.25,2.8,true
+SKU-1011,Portable Charger 10000mAh,Electronics,14.0,0.5,true
+SKU-1012,HDMI Cable 10ft,Electronics,5.5,0.4,true
+SKU-1013,Notebook 3-Pack Lined,Office Supplies,3.0,1.0,true
+SKU-1014,Gel Pen Set 12ct,Office Supplies,4.5,0.6,true
+SKU-1015,Desk Organizer Bamboo,Office,9.8,1.8,true
+SKU-1016,Water Bottle Insulated 32oz,Lifestyle,8.25,0.9,true
+SKU-1017,Fitness Tracker Band,Electronics,19.0,0.2,true
+SKU-1018,Sunglasses Polarized,Accessories,7.5,0.15,true
+SKU-1019,Travel Backpack 30L,Lifestyle,21.0,2.0,true
+SKU-1020,Yoga Mat Premium,Lifestyle,13.5,3.0,true
+SKU-1021,Wireless Charger Pad,Electronics,10.0,0.4,true
+SKU-1022,Smart Plug 2-Pack,Electronics,11.5,0.5,true
+SKU-1023,Reusable Tote Bag Set,Lifestyle,5.0,0.6,true
+SKU-1024,Stainless Steel Tumbler,Lifestyle,7.0,0.7,true
+SKU-1025,Portable Bluetooth Keyboard,Electronics,16.0,0.8,true
