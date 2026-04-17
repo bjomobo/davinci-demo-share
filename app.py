@@ -22,6 +22,23 @@ st.set_page_config(
     layout="wide",
 )
 
+# ── Password gate ────────────────────────────────────────────────────────────
+def _check_password():
+    if st.session_state.get("authenticated"):
+        return True
+    st.markdown("## Davinci Micro-Fulfillment Demo")
+    st.caption("Enter the demo password to continue.")
+    pwd = st.text_input("Password", type="password", label_visibility="collapsed")
+    if pwd == st.secrets.get("APP_PASSWORD", ""):
+        st.session_state["authenticated"] = True
+        st.rerun()
+    elif pwd:
+        st.error("Incorrect password")
+    return False
+
+if not _check_password():
+    st.stop()
+
 # ── Load & transform (cached) ───────────────────────────────────────────────
 @st.cache_resource(show_spinner="Loading data and running analytics pipeline...")
 def load_pipeline():
