@@ -4,12 +4,13 @@ A demo operations dashboard for Davinci Micro Fulfillment that unifies order, in
 
 ## What This Demo Shows
 
-The platform answers two core business questions:
+The dashboard walks through five screens:
 
-1. **Which node should fulfill each order?** A rules-based routing engine and an AI-powered weighted scoring model evaluate candidate nodes based on cost, SLA, inventory health, and demand patterns.
-2. **Where should inventory be rebalanced?** The system identifies under-stocked and over-stocked nodes and recommends transfers before service levels slip.
-
-The dashboard walks through five screens: a network health overview, order routing, inventory health by node, rebalance recommendations, and a side-by-side comparison of rules-based vs AI-driven routing.
+- **Network Health Overview** — a top-level KPI snapshot of the fulfillment network: today's order volume, SLA risk, average fulfillment cost, historical on-time rate, and live inventory alerts across every node.
+- **Order Routing** — a rules-based routing simulator that shows, for each of today's orders, which node was picked to fulfill it and why. You can drill into any order to see the candidate nodes that were considered, their shipping cost, transit time, and inventory position.
+- **Inventory Health by Node** — every SKU at every node classified as Critical, Low Stock, Healthy, or Overstock based on its ratio to safety stock, so operators can spot where the network is thin or sitting on excess.
+- **Rebalance Recommendations** — suggested transfers from overstocked nodes to deficit nodes, prioritized by urgency, so inventory can be moved before service levels slip.
+- **AI Routing Optimization** — a side-by-side comparison of the rules-based engine versus an AI-driven weighted scoring model that balances cost, SLA slack, inventory health, demand pressure, and each node's historical on-time performance. This screen is a **simulation of what's possible**: it illustrates how a smarter routing layer would shift decisions, and what the projected impact on cost, SLA, and inventory health would look like if Davinci moved beyond simple cost-minimization rules.
 
 ## Run It Locally
 
@@ -19,7 +20,3 @@ streamlit run app.py
 ```
 
 Then open http://localhost:8501 in your browser.
-
-## Built By
-
-**uBIT Technologies**
