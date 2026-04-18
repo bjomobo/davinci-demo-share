@@ -531,7 +531,7 @@ elif screen == "Rebalance Recommendations":
                                      "transfer_qty", "source_available",
                                      "dest_available", "dest_safety_stock", "priority"]]
         st.dataframe(
-            display_reb.style.applymap(
+            display_reb.style.map(
                 lambda v: "background-color: #fef3c7; color: #92400e; font-weight: bold" if v == "High" else "",
                 subset=["priority"]
             ),
